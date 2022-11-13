@@ -1,6 +1,6 @@
-# Webpack Starter
+# Task - list
 
-Proyecto inicial para crear aplicaciones utilizando webpack.
+Proyecto desarrollado en javascript que controla el estado de tareas.
 
 ### Notas:
 Para iniciar require reconstruir los modulos de Node
