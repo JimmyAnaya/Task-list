@@ -1,6 +1,10 @@
-import { saludar } from './js/componentes.js';
 import './styles.css';
 
-const nombre = 'Jimmy';
+import { Task, TaskList } from './class';
+import { crearTaskHtml } from './js/componentes';
 
-saludar(nombre);
+export const taskList = new TaskList();
+
+taskList.tasks.forEach(crearTaskHtml);
+
+ console.log( taskList.tasks );
